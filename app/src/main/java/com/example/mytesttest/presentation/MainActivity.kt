@@ -1,10 +1,9 @@
-package com.example.mytesttest.ui
+package com.example.mytesttest.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mytesttest.R
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

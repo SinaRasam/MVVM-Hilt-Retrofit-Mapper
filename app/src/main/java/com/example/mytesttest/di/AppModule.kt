@@ -19,9 +19,9 @@ object AppModule {
         return app as BaseApplication
     }
 
-    @Singleton
+/*    @Singleton
     @Provides
     fun provideApp(@ApplicationContext app:Context):String{
         return ""
-    }
+    }*/
 }

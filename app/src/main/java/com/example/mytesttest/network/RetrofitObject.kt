@@ -28,3 +28,14 @@ object RetrofitObject {
             .create(Api::class.java)
     }
 }
+//const val BASE_URL = "http://88.99.23.115/api/"
+
+/*    private  val okHttpClient = OkHttpClient.Builder()
+    .addInterceptor{chain ->
+        val orginal = chain.request()
+        val requestBuilder = orginal.newBuilder()
+            .addHeader()
+            .method(orginal.method(),orginal.body())
+        val request = requestBuilder.build()
+        chain.proceed(request)
+    }*/
